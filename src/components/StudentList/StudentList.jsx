@@ -1,10 +1,5 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import './StudentList.css';
 
-/*
-YOU SHOULDNT NEED TO MODIFY ANYTHING IN THIS FILE
-*/
 
 function StudentList({ studentList }) {
 
@@ -32,12 +27,5 @@ function StudentList({ studentList }) {
     );
     
 }
-
-// PropTypes is an optional library that helps developers.
-// This will tell the parent component what functions it must implement to 
-// use this component. And it throws an error that is easy to find for a developer if they forget it.
-StudentList.propTypes = {
-    studentList: PropTypes.array.isRequired,
-};
 
 export default StudentList;
