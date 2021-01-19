@@ -21,7 +21,7 @@ function App() {
         axios({
             method: 'POST',
             url: '/students',
-            data: {github_name: newStudent.githubName}
+            data: {github_name: newStudent}
         }).then((response) => {
             console.log(response);
             getStudents();
