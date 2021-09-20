@@ -2,6 +2,7 @@ import axios from 'axios';
 import './App.css';
 import StudentForm from '../StudentForm/StudentForm.jsx';
 import StudentList from '../StudentList/StudentList.jsx';
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
 function App() {
     return (
