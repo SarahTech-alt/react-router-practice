@@ -22,8 +22,8 @@ npm run client
 Add routing and navigation to this app!
 
 - [x] Install `react-router-dom` and setup the `Router` in `App`.
-- [ ] Add a `<nav>` element with links to /home, /about, or /allStudents
-- [ ] Add a new About page that says a little about the app (don't overthink this, just display a sentence or two)
-- [ ] Show the student list view from the /allStudents route.
-- [ ] Keep the Form in the /home route
-   - [ ] After successfully adding a new student, move us to `/allStudents`, but only on success
+- [x] Add a `<nav>` element with links to /home, /about, or /allStudents
+- [x] Add a new About page that says a little about the app (don't overthink this, just display a sentence or two)
+- [x] Show the student list view from the /allStudents route.
+- [x] Keep the Form in the /home route
+   - [x] After successfully adding a new student, move us to `/allStudents`, but only on success
